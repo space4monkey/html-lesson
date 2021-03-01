@@ -1,0 +1,9 @@
+div {
+  background: blue;
+  font-size: large;
+  color: chartreuse;
+  width: 220px;
+  height: 50px;
+  display: inline-block;
+  margin: 10px;
+}
