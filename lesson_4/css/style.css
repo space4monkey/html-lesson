@@ -4,6 +4,7 @@
 /* bottom - отступ с низу  */
 /* relative */
 /* absolute Работает относительно первого встреченного родителя у которого применено свойство position: absolute или fixed если не встречен то работает как fixed*/
+/* z-index это значение поднятия уровня элемента над основной страницей. Основная страница =0 */
 .test {
   width: 50px;
   height: 25px;
@@ -44,10 +45,12 @@ input[type="checkbox"] {
   bottom: 0;
   /* right: 0;
   top: 0; */
+  z-index: -3;
 }
 .p2 {
   position: absolute;
   top: 70px;
   right: 70px;
   background: orange;
+  z-index: 2;
 }
