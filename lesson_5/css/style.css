@@ -1,6 +1,13 @@
 /* float: left; */
 /* float: right; */
 /* float: none; */
+/* clearfix стандартный блок*/
+.clearfix {
+  width: 100%;
+  clear: both;
+  /* Данный блок не должен оптикать не один другой */
+  /* border: 1px solid black; */
+}
 p {
   background: pink;
   /* width: 300px; */
@@ -18,4 +25,34 @@ p {
   width: 90px;
   height: 90px;
   float: left;
+}
+.parent {
+  padding: 10px;
+  background: lightblue;
+}
+.three {
+  background: orange;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  float: left;
+}
+.wrap {
+  background: cyan;
+  padding: 5px;
+}
+.block {
+  background: #c0c0cc;
+  float: left;
+  width: 47%;
+  min-height: 100px;
+  margin: 0 1.5%;
+}
+.block3 {
+  /* 100/3=33.33333 */
+  background: #c0c0cc;
+  float: left;
+  width: 31.3333333%;
+  min-height: 100px;
+  margin: 0 1%;
 }
