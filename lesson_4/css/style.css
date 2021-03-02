@@ -2,18 +2,27 @@
 /* fixed - элемент всплывает* над страницей*/
 /* top left right bottom - действуют когда включен fixed */
 /* bottom - отступ с низу  */
+/* relative */
+/* absolute */
 .test {
   width: 50px;
   height: 25px;
-  background: orange;
-  /* position: relative; */
+  background: #ffa500;
+
+  position: relative; /*с помощью этого можно двигать объект с помощью left; right и т.д.*/
   /* position: fixed;
   right: 250px;
   left: 400px; /*приоритетней чем right*/
   /* top: 100px;*/ /*приоритетней чем bottom */
   /* bottom: 250px;  */
+  bottom: 40px;
+  left: 50px;
 }
 /* p {
   height: 1000px;
   background: lime;
 } */
+input[type="checkbox"] {
+  position: relative;
+  top: 2px;
+}
