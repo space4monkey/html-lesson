@@ -4,14 +4,14 @@
 /* bottom - отступ с низу  */
 .test {
   width: 50px;
-  height: 50px;
+  height: 25px;
   background: orange;
-  position: relative;
+  /* position: relative; */
   /* position: fixed;
-  right: 200px;
-  bottom: 100px;
-  top: 100px; */
-  bottom: 40px;
+  right: 250px;
+  left: 400px; /*приоритетней чем right*/
+  /* top: 100px;*/ /*приоритетней чем bottom */
+  /* bottom: 250px;  */
 }
 /* p {
   height: 1000px;
