@@ -1,0 +1,41 @@
+/* !important искуственное повышение приоритетности */
+input {
+  outline: none;
+}
+a {
+  color: chartreuse;
+  font-size: 24px;
+}
+a:hover {
+  color: red;
+  /* cursor: wait; */
+}
+a:visited {
+  color: rgb(0, 60, 255);
+}
+.one {
+  width: 50px;
+  height: 50px;
+  background: blue;
+}
+.one:hover {
+  background: red;
+}
+input {
+  border: 1px solid green;
+  border-radius: 4px;
+}
+input:focus {
+  border: 3px solid red;
+}
+/* div p:first-child {
+  /* background: red; 
+  border-top: 1px solid #c0c0c0;
+}
+div p:last-child {
+  /* background: blue;
+  border-top: 1px solid #c0c0c0;
+} */
+div p:nth-child(even) {
+  background: #640606;
+}
