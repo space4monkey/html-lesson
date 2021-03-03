@@ -63,3 +63,36 @@ p::before {
   left: 0px;
   top: 0px;
 } */
+.main {
+  padding: 10px;
+  background: orange;
+}
+
+.main::after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: left;
+}
+
+.block {
+  width: 40px;
+  height: 40px;
+  background: bisque;
+  border: 1px solid black;
+  float: left;
+}
+/* .clearfix {
+  display: block;
+  width: 100%;
+  clear: both;
+} */
+
+p::first-letter {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+}
+p::first-line {
+  background: red;
+}
