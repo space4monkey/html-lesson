@@ -1,5 +1,6 @@
 /* !important искуственное повышение приоритетности */
-input {
+/* оличие между :псевдоклассом и ::псевдоэлементом в количестве ":" */
+/* input {
   outline: none;
 }
 a {
@@ -9,7 +10,7 @@ a {
 a:hover {
   color: red;
   /* cursor: wait; */
-}
+/* }
 a:visited {
   color: rgb(0, 60, 255);
 }
@@ -27,7 +28,7 @@ input {
 }
 input:focus {
   border: 3px solid red;
-}
+} */
 /* div p:first-child {
   /* background: red; 
   border-top: 1px solid #c0c0c0;
@@ -36,6 +37,29 @@ div p:last-child {
   /* background: blue;
   border-top: 1px solid #c0c0c0;
 } */
-div p:nth-child(even) {
-  background: #640606;
+/* div p:nth-child(even) {
+  background: #654e6623;
 }
+p {
+  position: relative;
+}
+p::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: green;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+p::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: red;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+} */
