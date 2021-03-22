@@ -29,3 +29,7 @@ form div input {
   width: 50%;
   float: left;
 }
+form div input[type="checkbox"],
+form div input[type="radio"] {
+  width: auto;
+}
