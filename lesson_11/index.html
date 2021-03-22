@@ -11,11 +11,11 @@
     <form action="">
       <div>
         <label for="">Phone:</label>
-        <input type="text" value="+375" id="phone" />
+        <input type="text" value="+375" id="phone" disabled="disabled" />
       </div>
       <div>
         <label for="">Email:</label>
-        <input type="email" placeholder="Your email" />
+        <input type="email" placeholder="Your email" required />
       </div>
       <div>
         <label for="">Number:</label>
@@ -23,7 +23,7 @@
       </div>
       <div>
         <label for="ch1">Checkbox:</label>
-        <input type="checkbox" id="ch1" />
+        <input type="checkbox" id="ch1" tabindex="1" />
       </div>
       <div>
         <label for="radio">Radio 1:</label>
@@ -32,6 +32,31 @@
       <div>
         <label for="radio1">Radio 2:</label>
         <input type="radio" id="radio1" name="rad" />
+      </div>
+      <div>
+        <label for="radio1">Radio 2:</label>
+        <textarea name="" id="" tabindex="2"></textarea>
+      </div>
+      <div>
+        <label for="radio1">Color:</label>
+        <input type="color" value="#fef65b" />
+        <input type="range" value="50" min="0" max="150" step="50" />
+      </div>
+      <div>
+        <label for="radio1">Radio 2:</label>
+        <input type="button" value="Hello" />
+      </div>
+      <div>
+        <label for="radio1">Radio 2:</label>
+        <input type="file" />
+      </div>
+      <div>
+        <label for="radio1">password:</label>
+        <input type="password" />
+      </div>
+      <div>
+        <label for="radio1">Date:</label>
+        <input type="date" />
       </div>
       <div>
         <input type="submit" value="Send form" />

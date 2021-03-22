@@ -25,11 +25,15 @@ form div label {
   padding-right: 20px;
 }
 
-form div input {
+form div input,
+form div textarea {
   width: 50%;
   float: left;
 }
 form div input[type="checkbox"],
 form div input[type="radio"] {
   width: auto;
+}
+form div input[type="range"] {
+  /* transform: rotate(90deg); */
 }
