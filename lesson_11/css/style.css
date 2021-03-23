@@ -36,4 +36,5 @@ form div input[type="radio"] {
 }
 form div input[type="range"] {
   /* transform: rotate(90deg); */
+  width: auto;
 }
