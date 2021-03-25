@@ -1,0 +1,42 @@
+
+.main{
+    width: 1000px;
+    height: 1000px;
+    margin: 200px auto;
+    background: pink;
+}
+.test{
+    width: 50%;
+    height: 20%;
+    background: cyan;
+    margin: 10%;
+    padding: 2%;
+}
+/* body{
+
+    font-size: 19px;
+}
+.two{
+    font-size: 32px;
+} */
+/* .three{
+
+    font-size: 150%;
+}
+.two{
+    font-size: 120%;
+}
+.one{
+    font-size: 80%;
+} */
+html, body{
+ font-size: 16px;   
+}
+
+.three{
+    font-size: 1.5rem;
+}
+
+.two{
+    font-size: 2rem;
+}
