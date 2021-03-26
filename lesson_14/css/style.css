@@ -1,0 +1,63 @@
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 5px;
+  background: bisque;
+}
+
+.header {
+  min-height: 100px;
+  background: green;
+  margin: 1%;
+}
+
+.left {
+  width: 30%;
+  background: blue;
+  min-height: 200px;
+  float: left;
+  margin: 1%;
+}
+
+.right {
+  width: 66%;
+  background: orange;
+  min-height: 200px;
+  float: left;
+  margin: 1%;
+}
+
+.wrap::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  /* from 0 px to 600px */
+  .container {
+    background: pink;
+    width: 90%;
+  }
+  .left {
+    width: 48%;
+  }
+  .right {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* from 0 px to 600px */
+  .container {
+    background: red;
+    width: 100% auto;
+  }
+  .left {
+    width: 98%;
+  }
+  .right {
+    width: 98%;
+  }
+} ;
