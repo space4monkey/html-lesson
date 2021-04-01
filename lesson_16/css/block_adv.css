@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 *{
   box-sizing: border-box;
 }
+=======
+* {
+  box-sizing: border-box;
+}
+
+>>>>>>> 26ccedee0b75850c7daeff2ee907f656a5420bbe
 html,
 body {
   margin: 0;
   box-sizing: border-box;
+
   background: #f6f8f9;
   font-family: Arial, Tahoma, sans-serif;
   color: #44525e;
@@ -34,9 +42,21 @@ h3 span {
   margin: 10px auto;
 }
 
+<<<<<<< HEAD
 .block-avd{
+=======
+.block-adv {
+>>>>>>> 26ccedee0b75850c7daeff2ee907f656a5420bbe
   width: 50%;
   min-height: 100px;
   background: #fff;
   border: 1px solid #eaedef;
+<<<<<<< HEAD
 }
+=======
+}
+
+.block-adv .sale {
+  width: 25%;
+}
+>>>>>>> 26ccedee0b75850c7daeff2ee907f656a5420bbe
