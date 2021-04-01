@@ -7,7 +7,6 @@ html,
 body {
   margin: 0;
   box-sizing: border-box;
-
   background: #f6f8f9;
   font-family: Arial, Tahoma, sans-serif;
   color: #44525e;
@@ -72,7 +71,6 @@ h3 span {
 }
 
 .sale-img p{
-  font-style: italic;
   font-size: 18px;
   color: #fff;
 }
@@ -80,8 +78,34 @@ h3 span {
 .block-adv .slogan{
   width: 40%;
   float: left;
+  text-align: left;
   margin: 0 2%;
+  min-height: 100px;
+  position: relative;
 }
+
+/* .block-adv .slogan::after{
+  content: "";
+  display: block;
+  width: 1px;
+  height: 45px;
+  background: #2424ad;
+  position: absolute;
+  right: 10px;
+  top: 27px;
+} */
+
+.block-adv .slogan::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 45px;
+  background: #2323ad;
+  position: absolute;
+  right: 10px;
+  top: 27px;
+}
+
 
 .block-adv .slogan h3 {
   color: #34404b;
@@ -96,3 +120,35 @@ h3 span {
   font-size: 12px;
   margin: 5px;
 }
+.block-adv .adv-price{
+  width: 23%;
+  min-height: 100px;
+  float: left;
+  margin: 0 2%;
+  color: #ff5912;
+  font-size: 21px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.block-adv .adv-price p::before{
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 30px;
+  background-image: url(../images/card_plus.png);
+}
+
+/* 670px - 100%
+   170 - x
+   270 - x
+   15 - x
+
+   x=170*100/670
+--------------------
+   2% + 25% + 2% = 29%
+   2% + 40% + 2% = 44%
+   2% + 23% + 2% = 27%
+--------------------
+   100 - 44 - 29 = 27 */
