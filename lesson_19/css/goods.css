@@ -185,9 +185,54 @@ h3 span {
 }
 
 .line-1 {
-  width: 80%;
-  margin: 20px auto;
   height: 2px;
   background: #edf0f2;
   position: absolute;
+  top: 60px;
+  left: 20px;
+  right: 20px;
+}
+
+.line-2 {
+  height: 2px;
+  background: #34404b;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  right: 40px;
+}
+
+.double-slider .left-dot,
+.double-slider .right-dot {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+}
+
+.double-slider .dot {
+  width: 12px;
+  height: 12px;
+  background: #34404b;
+  border-radius: 100%;
+  margin: 5px auto;
+}
+
+.double-slider .right-dot {
+  right: 24px;
+  top: 32px;
+}
+
+.double-slider .left-dot {
+  left: 24px;
+  top: 32px;
+}
+
+.slider-from-to {
+  margin: 30px;
+}
+
+.slider-from-to input {
+  width: 50px;
+  margin-left: 20px;
 }
